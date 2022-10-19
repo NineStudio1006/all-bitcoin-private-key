@@ -28,7 +28,7 @@ export class HomeComponent implements OnInit {
     0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffn;
 
   page = 1n;
-  limitPerPage = 16;
+  limitPerPage = 10000;
   resultsLength = this.maxNumber.toString();
   maxPage = this.maxNumber / BigInt(this.limitPerPage);
 
